@@ -8,8 +8,8 @@ Creatable select component for shadcn/ui
 <CreatableSelect
     name="industry"
     defaultValue={{
-    label: data?.data?.industry || '',
-    value: data?.data?.industry || '',
+        label: data?.data?.industry || '',
+        value: data?.data?.industry || '',
     }}
     isLoading={industriesFetching}
     mutate={industryMutate}
